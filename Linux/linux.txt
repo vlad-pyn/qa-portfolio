@@ -1,0 +1,16 @@
+unix basic commands
+permissions
+dependancies
+install/uninstall/update apps
+reboot/shutdown console
+top/htop
+cron job
+ssh
+root user/superuser
+manual/help
+
+
+
+having sql
+
+методи розробки в гіті
