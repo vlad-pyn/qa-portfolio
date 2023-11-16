@@ -1,0 +1,38 @@
+{
+  "Bug_id":"1",
+  "Name": "Cart Quantity Update Issue",
+  "Severity": "Critical",
+  "Summary": "Users cannot update the quantity of items in the shopping cart.",
+  "Steps_to_reproduce": [
+    "1":"Add multiple items to the shopping cart.",
+    "2":"Navigate to the cart page.",
+    "3":"Attempt to update the quantity of one or more items."
+  ],
+  "Expected_result": "Users should be able to update the quantity of items in the shopping cart, and the total price should reflect the changes accordingly."
+}
+
+{
+  "Bug_id":"2",
+  "Name": "Transaction History Missing Entries",
+  "Severity": "Major",
+  "Summary": "Some transactions are not appearing in the user's transaction history.",
+  "Steps_to_reproduce": [
+    "1":"Log in to the online banking system.",
+    "2":"Navigate to the 'Transaction History' section.",
+    "3":"Check for recent transactions and compare with actual activity."
+  ],
+  "Expected_result": "All transactions, including recent ones, should be accurately displayed in the user's transaction history."
+}
+
+{
+  "Bug_id":"3",
+  "Name": "Quiz Score Calculation Error",
+  "Severity": "Blocker",
+  "Summary": "The system is calculating quiz scores incorrectly, leading to inaccurate results.",
+  "Steps_to_reproduce": [
+    "1":"Log in to the student portal.",
+    "2":"Select and complete a quiz.",
+    "3":"Compare the calculated score with the correct answers."
+  ],
+  "Expected_result": "The system should accurately calculate the quiz score based on the correct answers, providing students with the correct assessment of their performance."
+}

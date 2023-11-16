@@ -1,0 +1,9 @@
+select * from job_j left join employee_e on j.id = e.job_id
+
+select * from job where job_name = 'Programmer'
+
+select * from job order by job_name desc
+
+select job_name, count(*) as jobs_count from job group by job_name
+select job_name, sum(salary) as total_salary from job group by job_name, job_location
+select job_name, avg(salary) as average_salary from job group by job_name, job_location

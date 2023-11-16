@@ -1,0 +1,42 @@
+{
+  "TestCase_id":"1",
+  "Name": "Add to Cart Functionality",
+  "Priority": "High",
+  "Title": "Verify the ability to add items to the shopping cart.",
+  "Steps": [
+    "1":"Navigate to the product page.",
+    "2":"Select a product and specify quantity.",
+    "3":"Click 'Add to Cart' button."
+  ],
+  "Expected_result": "The selected item should be added to the shopping cart, and the cart total should reflect the new addition."
+}
+
+{
+  "TestCase_id":"2",
+  "Name": "Transfer Funds Between Accounts",
+  "Priority": "High",
+  "Title": "Test the functionality of transferring funds between two bank accounts.",
+  "Steps": [
+    "1":"Log in to the online banking system.",
+    "2":"Navigate to the 'Transfer Funds' section.",
+    "3":"Select source and destination accounts, enter the amount, and confirm the transfer."
+  ],
+  "Expected_result": "The specified amount should be successfully transferred from the source account to the destination account, and the transaction details should be reflected in the transaction history."
+}
+
+{
+  "TestCase_id":"3",
+  "Name": "Submit Online Quiz",
+  "Priority": "Medium",
+  "Title": "Verify the process of submitting an online quiz in an educational platform.",
+  "Steps": [
+    "1":"Log in to the student portal.",
+    "2":"Navigate to the 'Quizzes' section and select a quiz.",
+    "3":"Answer all the quiz questions and submit the quiz."
+  ],
+  "Expected_result": "The system should evaluate the submitted quiz, provide immediate feedback (if applicable), and record the quiz results in the student's academic records."
+}
+
+
+
+
